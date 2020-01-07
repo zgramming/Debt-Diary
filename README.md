@@ -1,4 +1,4 @@
-# debt_diary
+# Debt Diary
 
 Debt Diary App
 
