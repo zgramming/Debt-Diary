@@ -37,7 +37,7 @@ class Repository {
     final valueBox = debtModelHive;
     final actionBox =
         await hiveBox.add(valueBox).then((_) => Navigator.of(context).pop());
-    print(actionBox);
+    // print(actionBox);
     return actionBox;
   }
 

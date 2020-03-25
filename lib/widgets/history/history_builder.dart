@@ -38,7 +38,11 @@ class HistoryBuilder extends StatelessWidget {
               actionName: model.actionName,
             ),
             groupBuilder: (BuildContext context, String dateHistoryCreate) =>
-                HistoryHeaderDate(dateHistoryCreate, Colors.blue, Colors.white),
+                HistoryHeaderDate(
+              dateHistoryCreate,
+              Colors.blue,
+              Colors.white,
+            ),
           ),
         )
       ],

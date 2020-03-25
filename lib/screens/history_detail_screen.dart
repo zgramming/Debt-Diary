@@ -25,7 +25,9 @@ class HistoryDetailScreen extends StatelessWidget {
           ),
           centerTitle: true,
           flexibleSpace: HistoryDetailHeaderCustom(
-              model: loadedHistory, textTheme: textTheme),
+            model: loadedHistory,
+            textTheme: textTheme,
+          ),
         ),
       ),
       body: HistoryDetailBodyCustom(model: loadedHistory, textTheme: textTheme),
