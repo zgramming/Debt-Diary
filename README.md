@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/zgramming/Debt-Diary/blob/master/banner_github_debt_diary.png" height="300">
+</p>
+
 # Debt Diary
 
 Debt Diary App
